@@ -1,95 +1,62 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import Link from 'next/link';
+
+
+import airPlannerSVG from './assets/airplane.svg';
+import logoSVG from './assets/logo.svg';
+
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+    
+
+    <main >
+
+      
+      <section id="hero" className="mx-auto flex p-8 h-screen w-full max-w-screen-xl flex-col">
+        <nav className="w-full flex items-center h-14 mt-1 justify-between">
+
+          <Link href="/">
+
             <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+              className="h-14 w-14"
+              src={logoSVG}
+              alt="Logomarca da AirPlanner" />
+
+          </Link>
+
+          <div className="flex gap-8 items-center">
+            <Link href="#hero" className="font-medium text-stone-700 hover:text-sky-500 transition-colors">Preço</Link>
+
+            <Link href="#hero" className="font-medium text-stone-700 hover:text-sky-500 transition-colors">Sobre</Link>
+
+            <Link href="#hero" className="font-medium text-stone-700 hover:text-sky-500 transition-colors">Blog</Link>
+
+            <Link href="#hero" className="py-3 px-5 font-medium text-white bg-sky-500 rounded-full hover:bg-sky-800 transition-colors">Começar!</Link>
+          </div>
+        </nav>
+
+        <div className="w-full flex mt-2 items-center justify-between">
+          <div >
+            <h1 className="text-left text-7xl font-bold text-stone-700">
+              Planeje suas viagens com a <span className="text-sky-500">AirPlanner!</span>
+            </h1>
+            <p className="text-lg text-stone-700 font-bold mt-4">
+              Nunca foi tão fácil planejar uma viagem. 
+              <br/>Faça tudo de forma eficaz e sem dor de cabeça!
+            </p>
+            <br/>
+
+            <Link href="#hero" className="mt-8 py-3 px-5 w-fit font-medium text-white bg-sky-500 rounded-full hover:bg-sky-800 transition-colors">Comece agora!</Link>
+          </div>
+          <Image
+            className="w-full max-w-2xl"
+            src={airPlannerSVG} alt="Ilustração de um avião sobrevoando as nuvens" />
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        
+
+      </section>
+    </main>
   );
 }
