@@ -1,6 +1,6 @@
 # Hero Section
 
-![Hero Section](./src/app/assets/img-captura.pngassets/)
+![Hero Section](./src/app/assets/img-captura.png)
 
 ## Descrição
 
@@ -44,7 +44,7 @@ Para instalar e executar este projeto localmente, siga as etapas abaixo:
 # Acesse http://localhost:3000 em seu navegador para visualizar a aplicação.
 -
 -
-# Quer contribuir?
+## Quer contribuir?
 
 Se você deseja contribuir para este projeto, siga estas etapas:
 
