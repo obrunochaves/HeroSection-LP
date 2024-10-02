@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <section
         id="hero"
-        className="mx-auto·flex·h-screen·w-full·max-w-screen-xl·flex-col·p-8"
+        className="mx-auto flex h-screen w-full max-w-screen-xl flex-col p-8"
       >
         <nav className="mt-1 flex h-14 w-full items-center justify-between">
           <Link href="/">
