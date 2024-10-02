@@ -1,6 +1,6 @@
 # Hero Section
 
-![Hero Section](https://raw.githubusercontent.com/obrunochaves/HeroSection-LP/main/src/app/assets/img-captura.png)
+![Hero Section](./img-captura.png)
 
 
 ## Descrição
