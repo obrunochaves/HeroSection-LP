@@ -1,6 +1,7 @@
 # Hero Section
 
-![Hero Section](./src/app/assets/img-captura.png)
+![Hero Section](https://raw.githubusercontent.com/obrunochaves/HeroSection-LP/main/src/app/assets/img-captura.png)
+
 
 ## Descrição
 
@@ -41,7 +42,7 @@ Para instalar e executar este projeto localmente, siga as etapas abaixo:
 
     npm run dev
 
-# Acesse http://localhost:3000 em seu navegador para visualizar a aplicação.
+Acesse http://localhost:3000 em seu navegador para visualizar a aplicação.
 -
 -
 ## Quer contribuir?
