@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hero Section
 
-## Getting Started
+![Hero Section](./src/app/assets/img-captura.pngassets/)
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O **Hero Section** é uma aplicação web projetada para ser uma seção de destaque em landing pages. O objetivo é fornecer uma apresentação visual atraente e responsiva (ainda em produção) que capture a atenção dos usuários e os incentive a explorar mais sobre o conteúdo oferecido.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Framework React para construir aplicações web.
+- **TypeScript**: Para garantir a tipagem estática e melhorar a manutenção do código.
+- **Tailwind CSS**: Framework CSS para estilização rápida e eficiente.
+- **Vercel**: Plataforma de deploy para hospedar a aplicação.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Funcionalidades
 
-## Learn More
+- Design responsivo (em andamento): A seção se adaptará a diferentes tamanhos de tela, garantindo uma boa experiência em dispositivos móveis e desktop.
+- Personalização: Fácil de personalizar com diferentes textos, imagens e estilos para se adequar ao branding da sua empresa.
+- Desempenho otimizado: O uso de Next.js permite um carregamento rápido e eficiente.
 
-To learn more about Next.js, take a look at the following resources:
+## Instalação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para instalar e executar este projeto localmente, siga as etapas abaixo:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone o repositório:
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/obrunochaves/HeroSection-LP.git
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   
+2. Navegue até o diretório do projeto:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    cd HeroSection-LP
+
+3. Instale as dependências:
+
+    npm install
+
+4. Execute a aplicação:
+
+    npm run dev
+
+# Acesse http://localhost:3000 em seu navegador para visualizar a aplicação.
+-
+-
+# Quer contribuir?
+
+Se você deseja contribuir para este projeto, siga estas etapas:
+
+1. Faça um fork do repositório.
+
+2. Crie uma nova branch:
+
+    git checkout -b feature/nome-da-sua-feature
+
+3. Faça suas alterações e commit:
+
+    git commit -m "Adicionando uma nova feature"
+
+4. Envie suas alterações para o repositório remoto:
+
+    git push origin feature/nome-da-sua-feature
+
+5. Abra um pull request.
+
+## Licença
+Este projeto está licenciado sob a MIT License.
+
+## Contato
+Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
+
+**Nome**: Bruno Chaves
+**E-mail**: brunochavesuk@icloud.com
+**GitHub**: obrunochaves
+**Instagram**: brunochavesb_
