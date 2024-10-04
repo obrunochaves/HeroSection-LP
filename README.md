@@ -1,6 +1,6 @@
 # Hero Section
 
-![Hero Section]<img src="/img-captura.png">
+![Hero Section](/img-captura.png)
 
 
 ## Descrição
